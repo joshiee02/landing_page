@@ -63,7 +63,8 @@ a{
     width: 450px;
     height: 243px;
     object-fit: cover;
-    border-radius: 18px;
+    border-radius: 12px;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.3);
 }
 .second-content{
     background-color: #a98467;
@@ -85,9 +86,10 @@ a{
 .nature-image{
     width: 160px;
     height: 160px;
-    border: 3px solid #dde5b6;
-    border-radius: 12px;
+    border: 2px solid #dde5b6;
+    border-radius: 8px;
     object-fit: cover;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
 }
 .images{
     width: 160px;
