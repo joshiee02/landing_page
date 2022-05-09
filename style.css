@@ -1,6 +1,7 @@
 body{
-    background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    box-sizing: border-box;
 }
 .header{
     background-color: #1F2937;
@@ -17,6 +18,7 @@ body{
 a{
     text-decoration: none;
     color: #b6b6b6;
+    font-size: 18px;
 }
 .content-text-big{
     font-size: 48px;
@@ -26,18 +28,61 @@ a{
 .first-content{
     display: flex;
     margin-top: 100px;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 8px;
-    width: 400px;
-    border: 1px solid red
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.content-text{
+    width: 450px;
 }
 button{
     background-color: skyblue;
     color: white;
-    padding: 8px 24px;
+    padding: 8px 28px;
     border-radius: 8px;
+    margin-top: 8px;
 }
 .content-text-small{
     color: #b6b6b6;
+    font-size: 18px;
+}
+.first-image{
+    width: 425px;
+    height: 233px;
+}
+.second-content{
+    background-color: white;
+}
+.sec-con-text-big{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    display: flex;
+    padding-top: 16px;
+}
+.four-images{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px 0px 80px;
+}
+.nature-image{
+    width: 120px;
+    height: 120px;
+    border: 4px solid skyblue;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.images{
+    width: 120px;
+    text-align: center;
+}
+.third-content{
+    background-color: #e5e7eb;
+    padding: 110px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937
 }
