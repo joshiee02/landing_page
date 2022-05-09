@@ -1,0 +1,43 @@
+body{
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+.head-text, .content-text-big{
+    color: white;
+}
+.head-links{
+    display: flex;
+    gap: 32px;
+}
+a{
+    text-decoration: none;
+    color: #b6b6b6;
+}
+.content-text-big{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first-content{
+    display: flex;
+    margin-top: 100px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 400px;
+    border: 1px solid red
+}
+button{
+    background-color: skyblue;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+.content-text-small{
+    color: #b6b6b6;
+}
